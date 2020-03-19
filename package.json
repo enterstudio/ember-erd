@@ -16,7 +16,7 @@
   "dependencies": {
     "assert": "^1.4.1",
     "async": "^2.0.1",
-    "mocha": "^3.0.2",
+    "mocha": "^7.1.1",
     "path": "^0.12.7",
     "pluralize": "^3.0.0",
     "q": "^1.4.1",
