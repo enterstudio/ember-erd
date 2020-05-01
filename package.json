@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --report test test",
-    "ember-erd": "node index.js"
+    "ember-erd": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "ember-erd": "bin/index.js"
@@ -22,6 +24,8 @@
     "q": "^1.4.1",
     "requirejs": "^2.2.0",
     "shelljs": "^0.7.3",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
