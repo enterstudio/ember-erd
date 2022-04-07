@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "assert": "^1.4.1",
-    "async": "^2.0.1",
+    "async": "^3.2.2",
     "mocha": "^3.0.2",
     "path": "^0.12.7",
     "pluralize": "^3.0.0",
